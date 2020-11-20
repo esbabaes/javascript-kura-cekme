@@ -1,0 +1,15 @@
+#con{width: 100%;height: 800px;padding: 20px;text-align: center;}
+
+.liste_con{width: 450px; height: 800px; display: inline-block; margin: 20px 20px auto; border: solid 10px green;border-radius: 25px;background-color: cornsilk;}
+
+.liste_con >p{width: 80%; margin: 20px auto; height: 60px; line-height: 50px; text-transform: capitalize;font-weight: 600; background-color: aqua; font-size: 25px; text-align: center;border-radius: 25px;}
+
+.liste_tas{width: 350px;height: 600px;border: solid red 5px;margin: auto;border-radius: 25px 25px 25px 0; overflow: auto;}
+.liste_tas >p{font-size: 25px;background-color: antiquewhite;text-align: left;}
+.liste_tas >p >span:nth-child(odd){font-size: 30px; background-color: #908f8f; color: aliceblue;font-weight: 600;text-transform: capitalize; }
+.liste_tas >p >span:nth-child(even){font-size: 30px; background-color:antiquewhite;font-weight: 600;text-transform: capitalize;}
+span{display: block;}
+
+button{ font-size: 25px;margin: 20px auto;}
+
+#kura_liste{margin:10px auto; width: 95%;height: 90%;font-size: 25px;border-radius: 25px;}

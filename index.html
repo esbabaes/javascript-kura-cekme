@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+
+    <div id="con">
+        <!--  kura liste ekle-->
+
+        <div class="liste_con">
+            <p>kura liste ekle</p>
+            <div class="liste_tas">
+                <textarea id="kura_liste"></textarea>
+            </div>
+            <div class="buton_con">
+                <button onclick="liste_cek()">liste ekle</button>
+                <button onclick="liste_cek_temizle()">liste temizle</button>
+            </div>
+        </div>
+
+        <!--  kura liste ekle-->
+
+        <!--  kura liste goster-->
+
+        <div class="liste_con">
+            <p>kura liste goster</p>
+            <div class="liste_tas">
+               
+                <p id="liste_goster">liste goster</p>
+                
+            </div>
+            <div class="buton_con">
+                <button onclick="kura_cek()">kura cek</button>
+                <button onclick="kura_cek_temizle()">liste temizle</button>
+            </div>
+        </div>
+
+        <!--  kura liste goster-->
+
+        <!--  kura liste sonuc-->
+
+        <div class="liste_con">
+            <p>kura sonuc goster</p>
+            <div class="liste_tas">
+                <p id="kura_sonuc">kura sonuc</p>
+            </div>
+            <div class="buton_con">
+                <button onclick="kura_yazdir()">sonucu yazdir</button>
+                <button onclick="kura_temizle()">liste temizle</button>
+            </div>
+        </div>
+        <!--  kura liste sonuc-->
+
+    </div>
+    <script src="main.js"></script>
+</body></html>
